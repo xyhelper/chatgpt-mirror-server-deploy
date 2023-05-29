@@ -25,7 +25,7 @@ services:
     image: xyhelper/chatgpt-mirror-server:latest
     restart: always
     ports:
-      - 8100:8001
+      - 8200:8001
     environment:
       TZ: Asia/Shanghai # 指定时区
       # 接入网关地址
