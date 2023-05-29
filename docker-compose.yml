@@ -21,7 +21,7 @@ services:
       TZ: Asia/Shanghai # 指定时区
     volumes:
       - ./data/redis/:/data/
-  chatgpt-api-server:
+  chatgpt-mirror-server:
     image: xyhelper/chatgpt-mirror-server:latest
     restart: always
     ports:
