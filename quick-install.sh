@@ -8,22 +8,8 @@ git clone --depth=1 https://github.com/xyhelper/chatgpt-mirror-server-deploy.git
 ## 进入目录
 cd chatgpt-mirror
 
-
-if which docker-compose >/dev/null 2>&1; then
-    echo "docker-compose 存在"
-    # 执行 docker-compose 相关操作
-    docker-compose pull
-    docker-compose up -d
-elif which "docker compose" >/dev/null 2>&1; then
-    echo "docker compose 存在"
-    # 执行 docker compose 相关操作
-    docker compose pull
-    docker compose up -d
-else
-    echo "无法找到 docker-compose 或 docker compose"
-    # 处理未找到的情况
-fi
-
+docker compose pull
+docker compose up -d
 
 ## 提示信息
 echo "服务启动成功，请访问 http://localhost:8200"
