@@ -19,6 +19,8 @@ ChatGPT 镜像服务快速部署脚本库
 在服务器上执行以下命令即可
 
 ```bash
+curl -sSfL https://raw.githubusercontent.com/xyhelper/chatgpt-mirror-server-deploy/master/quick-install.sh | bash
+
 ```
 
 ## 手动部署
