@@ -2,6 +2,8 @@
 
 ChatGPT镜像服务快速部署脚本库
 
+源码在 [https://github.com/xyhelper/chatgpt-mirror-server](https://github.com/xyhelper/chatgpt-mirror-server)
+
 ## 前置条件
 
 - 一台至少2核2G内存的服务器,推荐使用香港、新加坡、日本地区的服务器,可以兼顾国内访问。
