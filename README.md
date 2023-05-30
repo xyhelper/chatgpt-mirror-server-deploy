@@ -37,3 +37,7 @@ cd chatgpt-mirror
 管理后台地址为 http://服务器ip:8200/xyhelper/
 
 默认用户名密码为 admin/123456
+
+## 加入交流群
+
+![微信](./docs/wxgroup0606.png)
