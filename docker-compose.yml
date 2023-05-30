@@ -33,6 +33,6 @@ services:
       # 接入网关的authkey
       AUTHKEY: "xyhelper"
       # 是否只使用token验证
-      ONLYTOKEN: true 
+      ONLYTOKEN: "true" 
     volumes:
       - ./data/chatgpt-api-server/:/app/data/
