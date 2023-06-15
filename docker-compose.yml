@@ -36,3 +36,15 @@ services:
       ONLYTOKEN: "true" 
     volumes:
       - ./data/chatgpt-api-server/:/app/data/
+    labels:
+      - "com.centurylinklabs.watchtower.scope=xyhelper-chatgpt-mirror-server"
+  watchtower:
+    image: containrrr/watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --scope xyhelper-chatgpt-mirror-server --cleanup
+    restart: always
+    environment:
+      - TZ=Asia/Shanghai
+    labels:
+      - "com.centurylinklabs.watchtower.scope=xyhelper-chatgpt-mirror-server"
