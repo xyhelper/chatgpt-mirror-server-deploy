@@ -35,7 +35,7 @@ services:
       # 是否只使用token验证
       ONLYTOKEN: "true" 
     volumes:
-      - ./data/chatgpt-api-server/:/app/data/
+      - ./data/chatgpt-mirror-server/:/app/data/
     labels:
       - "com.centurylinklabs.watchtower.scope=xyhelper-chatgpt-mirror-server"
   watchtower:
