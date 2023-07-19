@@ -70,4 +70,4 @@ cd chatgpt-mirror
 
 ## 加入交流群
 
-![微信](./docs/xyhelper0630.png)
+![微信](https://xyhelper.cn/xyhelperkf.png)
