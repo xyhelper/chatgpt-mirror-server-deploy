@@ -60,7 +60,7 @@ cd chatgpt-mirror
 
 ### 用户界面
 
-![用户界面](./docs/user.png)
+![用户界面](./docs/xyhelper.png)
 
 ### 管理界面
 
