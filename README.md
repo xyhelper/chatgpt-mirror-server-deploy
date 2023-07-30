@@ -2,6 +2,7 @@
 
 ChatGPT 镜像服务快速部署脚本库
 
+## 免费接口有频率限制，介意的请绕行
 - 我是开发者,我想自行修改功能->前往源码库 [https://github.com/xyhelper/chatgpt-mirror-server](https://github.com/xyhelper/chatgpt-mirror-server)
 - 我没服务器,也没有官网账号,只想使用->前往官网购买我们运营的会员服务 [https://www.xyhelper.com.cn](https://www.xyhelper.com.cn)
 - 我想做商业用途,我想自己运营->老板里面请 [https://www.xyhelper.com.cn/access](https://www.xyhelper.com.cn/access)
